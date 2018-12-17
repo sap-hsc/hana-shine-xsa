@@ -273,7 +273,7 @@ resources:
  
   - name: uaa 
     properties: 
-      url: "https:///<hostname>:3##32/uaa-security"
+      url: "https://registry.ta.sapdatahub.com:30032/uaa-security"
       
   - name: sapui5-provider
     type: configuration
@@ -290,5 +290,5 @@ resources:
       
   - name: controller
     properties:
-      url: 'https://<hostname>:3##30'
+      url: 'https://registry.ta.sapdatahub.com:30030'
   
